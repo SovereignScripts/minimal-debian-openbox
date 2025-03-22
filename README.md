@@ -1,36 +1,62 @@
-# Sovereign Debian Minimal Desktop
+# Minimal Debian OpenBox
 
-**A minimalist Debian build script using OpenBox for speed, clarity, and sovereignty.**
+Welcome to the Sovereign Scripts project!
 
-This project provides install scripts for setting up a lightweight Debian-based desktop system using OpenBox and only essential software. It's designed for users who want full control of their environment with minimal bloat — ideal for privacy-conscious users, Bitcoiners, creative professionals, and anyone who prefers a fast, no-fluff desktop.
+This repository provides a streamlined, minimalist build script for setting up a lightweight Debian desktop environment using OpenBox. It’s designed for users who want full control, speed, and clarity — without the bloat of mainstream desktop environments.
 
-## 🔧 Features
+---
 
-- `xorg` + `openbox` for a lightweight GUI
-- Simple, clean environment with:
-  - Terminal (`lxterminal`)
-  - File manager (`pcmanfm`)
-  - Wallpaper viewer (`feh`)
-  - Audio/video support (`mpv`, `alsa`)
-  - Office suite (`libreoffice`, optional)
-- Scripted, modular install
-- Optional profiles for:
-  - 🪙 Sovereign banking tools (Bisq, Electrum, Tor, Monero)
-  - 📊 Data analysis (R, Python)
-  - 🎬 Creative/media tools (video editing, image design)
+## 🎯 Project Goal
 
-## 🚀 Goals
+Create a **minimalist Debian system** that boots into a simple, fast OpenBox desktop with only the *essential apps* for web browsing, file management, and writing. Everything else is modular — additional profiles (e.g., “Data Science,” “Media Editing,” “Bitcoin Banking Workstation”) will be installable via optional scripts.
 
-- Fast setup for a full desktop system
-- Stay out of your way — no GNOME, no KDE, no bloat
-- Keep configs modular so you can customize easily
+---
 
-## 📦 Getting Started
+## 🔧 What's Included in the Base Install
 
-Once the script is uploaded, you’ll run:
+The core build will include:
 
-```bash
-git clone https://github.com/SovereignScripts/minimal-debian-openbox.git
-cd minimal-debian-openbox/install
-chmod +x minimal_debian_openbox.sh
-./minimal_debian_openbox.sh
+- `xorg` – the base graphical server
+- `openbox` – minimalist window manager
+- `lxterminal` – user-friendly terminal
+- `feh` – wallpaper and image viewer
+- `pcmanfm` – lightweight file manager
+- `libreoffice` – basic office suite
+- `mpv` – media player
+- `rsync` – essential backup/sync tool
+- (Optional) `gimp` and `inkscape` – depending on future user profile scripts
+
+---
+
+## 🔜 Upcoming Scripts
+
+Planned modular install scripts:
+
+- `install-data-cruncher.sh` – R, Python, Jupyter, etc.
+- `install-creative-suite.sh` – GIMP, Inkscape, Krita, video editing
+- `install-banking-workstation.sh` – Tor, Bisq, Electrum, Bitcoin/Lightning node tools
+- `install-publishing-suite.sh` – Pandoc, LaTeX, Zotero
+
+---
+
+## 🚀 Why This Project?
+
+> *"Minimalism is not about lack. It’s about intentionality."*
+
+This build is for those who want:
+- Maximum speed and simplicity
+- Transparent and auditable install processes
+- Sovereign computing and low system overhead
+- A friendly but Unix-inspired user experience
+
+---
+
+## 📜 License
+
+MIT License – free to use, modify, and distribute.
+
+---
+
+## 💬 Contact
+
+Maintained by [SovereignScripts](https://github.com/SovereignScripts) — for ideas, bugs, or contributions, feel free to open an issue or pull request.
