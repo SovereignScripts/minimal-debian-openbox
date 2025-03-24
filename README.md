@@ -41,6 +41,19 @@ Planned modular install scripts:
 
 ---
 
+##  What You Get After Running the Script
+
+- OpenBox window manager (right-click menu-based)
+- Firefox-ESR for browsing
+- LibreOffice for office work
+- MPV for video playback
+- Viewnior for image viewing
+- PCManFM for file management
+- lxterminal for terminal use
+
+Boot into a clean OpenBox session using startx, with a responsive and minimalist desktop.
+
+
 ## 🚀 Why This Project?
 
 > *"Minimalism is not about lack. It’s about intentionality."*
@@ -72,7 +85,9 @@ nm-applet & (add to autostart if desired)
 
 echo "exec openbox-session" > ~/.xinitrc
 
-2. This setup assumes you will log in on TTY and use startx. No display manager is included (e.g., LightDM) to keep it truly minimal.  Consider installing lightdm if you want a display manager: apt install lightdm and follow instructions. 
+2.  This system is designed for users comfortable with logging in via the
+command line, launching with startx, and editing .xinitrc. It’s a great next
+step for those moving beyond beginner desktops.
 
 3. If you encounter problems or have suggestions, feel free to open an issue.
 
