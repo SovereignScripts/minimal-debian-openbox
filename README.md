@@ -23,7 +23,6 @@ The core build will include:
 - `pcmanfm` – lightweight file manager
 - `libreoffice` – basic office suite
 - `mpv` – media player
-- `rsync` – essential backup/sync tool
 - (Optional) `gimp` and `inkscape` – depending on future user profile scripts
 
 ---
@@ -60,3 +59,8 @@ MIT License – free to use, modify, and distribute.
 ## 💬 Contact
 
 Maintained by [SovereignScripts](https://github.com/SovereignScripts) — for ideas, bugs, or contributions, feel free to open an issue or pull request.
+
+To launch the network icon in tint2:
+nm-applet & (add to autostart if desired)
+
+

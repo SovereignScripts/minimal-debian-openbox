@@ -31,6 +31,6 @@ apt install -y evince
 echo "Install complete."
 echo "To start OpenBox, create ~/.xinitrc with: exec openbox-session"
 echo "Then type: startx"
-echo "To make the network icon appear in tint2: nm-applet &" 
+
 
 
