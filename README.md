@@ -66,4 +66,14 @@ Maintained by [SovereignScripts](https://github.com/SovereignScripts) — for id
 To launch the network icon in tint2:
 nm-applet & (add to autostart if desired)
 
+## Tips and Notes: 
+
+1.  To set up your .xinitrc file: 
+
+echo "exec openbox-session" > ~/.xinitrc
+
+2. This setup assumes you will log in on TTY and use startx. No display manager is included (e.g., LightDM) to keep it truly minimal.  Consider installing lightdm if you want a display manager: apt install lightdm and follow instructions. 
+
+3. If you encounter problems or have suggestions, feel free to open an issue.
+
 
