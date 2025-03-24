@@ -5,32 +5,39 @@
 
 set -e
 
-echo "Starting Minimal Debian OpenBox installation..."
+echo
+echo "==============================================="
+echo "  🚀 Starting Minimal Debian + OpenBox Setup"
+echo "==============================================="
+sleep 1
 
 # Update & upgrade base system
 sudo apt update && sudo apt upgrade -y
 
+echo
+echo "🔧 Installing Xorg + OpenBox Window Manager..."
+
 # Core Xorg and OpenBox environment
-sudo apt install -y xorg openbox obconf lxterminal pcmanfm feh tint2
+sudo apt install -y xorg openbox obconf 
+
+echo
+echo "🖥️  Installing tint2 panel and network manager..."
+
+apt install -y network-manager network-manager-gnome tint2
+
+echo
+echo "🖲️  Installing lxterminal and basic utilities..."
+sudo apt install -y lxterminal pcmanfm feh 
+
+echo
+echo "📦 Installing essential applications (browser, office, media)..."
 
 # Office and media tools
-sudo apt install -y libreoffice mpv
+sudo apt install -y firefox-esr libreoffice mpv evince 
 
-# Optional creative tools (comment out if not needed)
-# sudo apt install -y gimp inkscape
 
-# Web  
-sudo apt install -y firefox-esr  
-
-# Network manager for GUI-based connectivity
-apt install -y network-manager network-manager-gnome
-
-# PDF viewer
-apt install -y evince
-
-echo "Install complete."
+echo "✅ Minimal OpenBox environment is ready!"
 echo "To start OpenBox, create ~/.xinitrc with: exec openbox-session"
 echo "Then type: startx"
 echo "To make the network icon appear in tint2: nm-applet &" 
-
 
