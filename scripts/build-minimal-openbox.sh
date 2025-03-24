@@ -1,9 +1,9 @@
 #!/bin/bash
 
+set -e
+
 # SovereignScripts - Minimal Debian OpenBox Builder
 # This script installs a minimalist Debian desktop environment using OpenBox.
-
-set -e
 
 echo
 echo "==============================================="
@@ -40,4 +40,7 @@ echo "✅ Minimal OpenBox environment is ready!"
 echo "To start OpenBox, create ~/.xinitrc with: exec openbox-session"
 echo "Then type: startx"
 echo "To make the network icon appear in tint2: nm-applet &" 
+
+echo
+echo "🎉 Setup complete! You can now run 'startx' to enter OpenBox."
 
