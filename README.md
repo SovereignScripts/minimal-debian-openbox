@@ -49,6 +49,7 @@ Planned modular install scripts:
 - Firefox-ESR for browsing
 - LibreOffice for office work
 - MPV for video playback
+- Feh for wallpaper
 - Viewnior for image viewing
 - PCManFM for file management
 - lxterminal for terminal use
@@ -78,8 +79,6 @@ MIT License – free to use, modify, and distribute.
 
 Maintained by [SovereignScripts](https://github.com/SovereignScripts) — for ideas, bugs, or contributions, feel free to open an issue or pull request.
 
-To launch the network icon in tint2:
-nm-applet & (add to autostart if desired)
 
 ## Tips and Notes: 
 
@@ -87,10 +86,14 @@ nm-applet & (add to autostart if desired)
 
 echo "exec openbox-session" > ~/.xinitrc
 
-2.  This system is designed for users comfortable with logging in via the
+2.  To launch the network icon in tint2:
+
+nm-applet & (add to autostart if desired)
+
+3.  This system is designed for users comfortable with logging in via the
 command line, launching with startx, and editing .xinitrc. It’s a great next
 step for those moving beyond beginner desktops.
 
-3. If you encounter problems or have suggestions, feel free to open an issue.
+4. If you encounter problems or have suggestions, feel free to open an issue.
 
 
