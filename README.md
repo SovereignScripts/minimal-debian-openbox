@@ -19,10 +19,12 @@ The core build will include:
 - `xorg` – the base graphical server
 - `openbox` – minimalist window manager
 - `lxterminal` – user-friendly terminal
+- `firefox` – basic web browser 
+- `libreoffice` – basic office suite
 - `evince` - light and intuitive PDF viewer
 - `feh` – wallpaper and image viewer
 - `pcmanfm` – lightweight file manager
-- `libreoffice` – basic office suite
+- `viewnior` – light and intuitive image viewer
 - `mpv` – media player
 - `network-manager & network-manager-gnone` -- essential network tools
 
